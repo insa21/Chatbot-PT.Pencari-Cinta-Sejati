@@ -1,0 +1,377 @@
+{
+     "intents": [
+          {
+               "tag": "pasangan_ yang_kita_suka_perempuan_muda",
+               "patterns": [
+                    "Bagaimana cara mendapatkan lelaki yang kita suka?",
+                    "Gimana cara agar saya dapat lelaki yang disuka? "
+               ],
+               "responses": [
+                    "Cara mendapatkan lelaki yang kita suka adalah 1. Temukan Pasangan yang Sesuai Tipe 2. Bergabung dengan Grup 3. Kencan Buta 4. Menghadiri Acara 5. Percaya diri 6. Jadi Diri Sendiri"
+               ],
+               "context": [
+                    "temukan_pasangan_yang_sesuai_tipe",
+                    "bergabung_dengan_grup",
+                    "kencan_buta",
+                    "menghadiri_acara",
+                    "percaya_diri",
+                    "jadi_diri_sendiri"
+               ]
+          },
+          {
+               "tag": "temukan_pasangan_yang_sesuai_tipe",
+               "patterns": [
+                    "Bagaimana cara mendapatkan pasangan (lelaki) yang kita suka ?",
+                    "Apa yang harus dilakukan untuk menemukan pasangan (lelaki) yang sesuai tipe kita?"
+               ],
+               "responses": [
+                    "Jika belum punya pacar sebelumnya, pasti kamu sudah tahu tipe lelaki seperti apa yang kamu inginkan . Misalnya, kamu menyukai lelaki yang cool, pendiam, smart atau bisa juga kamu menyukai jenis lelaki yang badboy dan alim. Tiap perempuan memiliki tipe lelaki yang ia sukai"
+               ],
+               "context": []
+          },
+          {
+               "tag": "bergabung_dengan_grup",
+               "patterns": [
+                    "Apakah perlu bergabung dengan grup?",
+                    "Grup seperti apa yang perlu untuk join?"
+               ],
+               "responses": [
+                    "Ketika kamu harus mencari seseorang dengan minat yang sama, maka Anda perlu bergabung dengan beberapa grup. Misalnya, kamu dapat bergabung dengan orang yang memiliki hoby atau ketertarikan yang sama dibidang tertentu. Menjadi bagian dari grup semacam itu dapat membuka peluang kamu berkenalan dengan orang dengan minat sama dan juga keterlibatan yang sama."
+               ],
+               "context": []
+          },
+          {
+               "tag": "kencan_buta",
+               "patterns": [
+                    "Apa itu kencan buta?",
+                    "Maksud dari kencan buta itu apa?"
+               ],
+               "responses": [
+                    "Blind date atau kencan buta adalah cara untuk bertemu atau berkencan dengan seseorang yang belum pernah kamu kenal sebelumnya. Ada banyak cara untuk memulai kencan buta. Namun yang paling umum biasanya dikenalkan oleh sahabat, teman, maupun keluarga."
+               ],
+               "context": []
+          },
+          {
+               "tag": "menghadiri_acara",
+               "patterns": [
+                    "Perlukah menghadiri acara di luar?",
+                    "Acara seperti apa yang bisa kita hadiri?"
+               ],
+               "responses": [
+                    "Ketika kamu bepergian, maka perlu pasang mata yang jeli untuk menemukan pria idaman.  Kamu bisa menghadiri acara seperti pergi ke sebuah pesta, pameran, pertunjukan dan bertemu dengan banyak pria dalam acara tersebut."
+               ],
+               "context": []
+          },
+          {
+               "tag": "percaya_diri",
+               "patterns": [
+                    "Mengapa perlu percaya diri?",
+                    "Apakah percaya diri diperlukan?"
+               ],
+               "responses": [
+                    "Seseorang yang mempunyai rasa percaya diri lebih, ia merasa yakin dengan kemampuannya sendiri sehingga dapat dilihat tingginya keberanian, hubungan sosial, tanggung jawab serta harga dirinya. Rasa percaya diri memang sangat diperlukan dalam menjalani hidup, termasuk dalam perjuangan mendapatkan pasangan."
+               ],
+               "context": []
+          },
+          {
+               "tag": "jadi_diri_sendiri",
+               "patterns": [
+                    "Bagaimana tips agar menjadi diri sendiri"
+               ],
+               "responses": [
+                    "Jadilah diri sendiri. Ketika melakukan ini, kamu juga merasa akan merasa lebih santai. Bersantai dengan orang yang kamu cintai dapat menambah kebahagiaan pasangan."
+               ],
+               "context": []
+          },
+          {
+               "tag": "mempertahankan_hubungan_agar_awet_perempuan_muda",
+               "patterns": [
+                    "Bagaimana cara mempertahankan hubungan agar awet?",
+                    "Tips hubungan agar awet dengan pasangan?"
+               ],
+               "responses": [
+                    "Cara mempertahankan hubungan agar awet adalah 1. Bersikap Saling Terbuka  2. Mengakui Kesalahan dan Minta Maaf  3. Kendalikan Diri  4. Jangan Mengungkit Masalah 5. Menghargai Waktu 6. Saling Percaya"
+               ],
+               "context": [
+                    "bersikap_saling-terbuka",
+                    "mengakui_kesalahan_dan_minta_maaf",
+                    "kendalikan_diri",
+                    "jangan_mengungkit_masalah",
+                    "percaya_diri",
+                    "menghargai_waktu",
+                    "saling_percaya"
+               ]
+          },
+          {
+               "tag": "bersikap_saling-terbuka",
+               "patterns": [
+                    "Apa itu bersikap saling terbuka",
+                    "Cara bersikap saling terbuka?",
+                    "Mengapa dalam hubungan harus ada sikap saling terbuka?"
+               ],
+               "responses": [
+                    "Bersikap saling terbuka disini semacam membentuk hubungan yang saling pengertian dan timbal balik. Hal ini bisa dimulai dari coba ajak pasanganmu untuk saling terbuka dan menyelesaikan masalah yang kalian hadapi saat ini. Dengan adanya sikap saling terbuka, rasa saling curiga antara kamu dan pasangan jadi bisa diminimalisir."
+               ],
+               "context": []
+          },
+          {
+               "tag": "mengakui_kesalahan_dan_minta_maaf",
+               "patterns": [
+                    "Apakah penting mengakui kesalahan dan minta maaf?",
+                    "Mengapa mengakui kesalahan dan meminta maaf itu perlu?"
+               ],
+               "responses": [
+                    "Saat terjadi permasalahan dalam suatu hubungan, kamu dan pasangan akan sama-sama bersikap egois dan saling menyalahkan satu sama lain. Dalam hal ini, kamu harus bisa mengatasinya dengan mengakui kesalahan dan meminta maaf duluan. Jangan gengsi untuk memulainya ya :)."
+               ],
+               "context": []
+          },
+          {
+               "tag": "kendalikan_diri",
+               "patterns": [
+                    "Bagaimana cara kita untuk mendalikan diri?",
+                    "Apakah perlu untuk kita mengendalikan diri?",
+                    "Kenapa perlu mengendalikan diri?"
+               ],
+               "responses": [
+                    "Jika sudah dalam kondisi yang hampir retak, biasanya kalian akan bertengkar hebat. Jangan membentak atau bahkan main fisik dengan pasanganmu. Itu sangat nggak sehat dalam suatu hubungan, apalagi untuk memperbaiki hubungan kalian."
+               ],
+               "context": []
+          },
+          {
+               "tag": "jangan_mengungkit_masalah",
+               "patterns": [
+                    "Mengapa kita tidak boleh mengungkit masalah?",
+                    "Gimana nih cara agar tidak mengungkit masalah?"
+               ],
+               "responses": [
+                    "Jangan mengungkit masalah yang sudah lewat, itu dapat memicu kembalinya pertengkaran di antara kamu dan pasangan. Salah satu cara agar tidak mengungkit masalah yang telah lalu yakni dengann membiasakan diri untuk mengambil keputusan bersama pasangan untuk rencana ke depannya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "menghargai_waktu",
+               "patterns": [
+                    "Perlukah kita menghargai waktu?",
+                    "Cara menghargai waktu itu seperti apa?"
+               ],
+               "responses": [
+                    "Jangan sia-siakan waktumu, apalagi jika kamu sedang bersama dengan pasangan. Habiskanlah waktu kalian dengan pergi bersama."
+               ],
+               "context": []
+          },
+          {
+               "tag": "saling_percaya",
+               "patterns": [
+                    "Mengapa saling percaya itu perlu dalam hubungan?",
+                    "Bagaimana membangun sikap saling percaya?"
+               ],
+               "responses": [
+                    "Kepercayaan jadi hal yang penting karena akan memungkinkan kamu untuk lebih terbuka ke pasangan. Saling percaya satu sama lain juga mempermudah hubungan kamu dan pasangan dalam menjalani hubungan.  Cara membangun sikap saling percaya diantaranya bersikap saling jujur, terbuka, perbaiki kesalahan, serta komunikasi setiap masalah. "
+               ],
+               "context": []
+          },
+          {
+               "tag": "cara_menghadapi_masalah_dalam_hubungan_perempuan_muda",
+               "patterns": [
+                    "Bagaimana cara menghadapi masalah dalam hubungan?",
+                    "Mengapa masalah perlu dihadapi?",
+                    "Apakah kita perlu menghadapi masalah?"
+               ],
+               "responses": [
+                    "Cara menghadapi masalah dalam hubungan adalah  1.Tentukan Waktu Bicara  2.Saling Mendengarkan  3.Buat Rencana Penyelesaian  4.Evaluasi 5. Saling Mengapresiasi"
+               ],
+               "context": [
+                    "tentukan_waktu_bicara",
+                    "saling_mendengarkan",
+                    "buat_rencana_penyelesaian",
+                    "evaluasi",
+                    "saling_mengapresiasi"
+               ]
+          },
+          {
+               "tag": "tentukan_waktu_bicara",
+               "patterns": [
+                    "Apakah perlu menentukan waktu bicara ke pasangan?",
+                    "Bagaimana cara menentukan waktu bicara?",
+                    "Hal apa saja yang peru diperhatikan dalam menentukan waktu bicara ke pasangan?"
+               ],
+               "responses": [
+                    "Setelah mengetahui sumber permasalahan, carilah waktu yang tepat untuk membicarakannya. Hal itu tentu saja perlu dilakukan. Jangan membicarakan permasalahan ketika kamu atau pasangan dalam kondisi kelelahan atau mengantuk. Carilah waktu di mana Anda berdua sama-sama tenang dan memiliki banyak waktu luang. Jika kondisi Anda cukup kikuk, coba atur waktu untuk berbicara melalui surat dan biarkan pasangan Anda membacanya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "saling_mendengarkan",
+               "patterns": [
+                    "Apakah saling mendengarkan ke pasangan itu perlu?",
+                    "Kapan waktu yang tepat untuk mendengarkan pasangan kita?"
+               ],
+               "responses": [
+                    "Saling mendengarkan apa yang kita dan pasangan kita inginkan itu perlu ya kawan :). Saat waktu yang tepat mulailah dengan membicarakan permasalahan dari sudut pandangmu dan solusinya. Upayakan untuk tetap berbicara secara tenang supaya tidak ada yang merasa tersudutkan. Setelah menjelaskan semuanya, jangan lupa untuk bergantian mendengarkan pasanganmu berbicara dari sudut pandang mereka."
+               ],
+               "context": []
+          },
+          {
+               "tag": "buat_rencana_penyelesaian",
+               "patterns": [
+                    "Apa rencana penyelesaian dalam hubungan itu perlu?",
+                    "Bagaimana cara membuat rencana penyelsaian?"
+               ],
+               "responses": [
+                    "Ketika Anda berdua sudah menyepakati masalah yang timbul, kini saatnya untuk menyusun rencana penyelesaian yang perlu dilakukan. Pastikan untuk membuatnya sedetail mungkin dengan tenggat waktu tertentu. Beranikanlah untuk mencoba segala cara yang telah disepakati untuk kemudian menemukan cara terbaik."
+               ],
+               "context": []
+          },
+          {
+               "tag": "evaluasi",
+               "patterns": [
+                    "Kapan evaluasi diperlukan dalam suatu hubungan?",
+                    "Apakah evaluasi dalam hubungan itu perlu?"
+               ],
+               "responses": [
+                    "Ketika mencoba rencana penyelesaian masalah, lakukanlah evaluasi secara berkala. Apakah kamu maupun pasangan sama-sama menikmati dan menemukan perubahan yang berarti. Jika iya, maka lanjutkan rencana tersebut. Jika tidak, cobalah untuk mengganti ke rencana lain yang sama-sama sudah disepakati."
+               ],
+               "context": []
+          },
+          {
+               "tag": "saling_mengapresiasi",
+               "patterns": [
+                    "Apresiasi itu apa?",
+                    "Bagaimana cara untuk saling mengapresiasi ke pasangan?"
+               ],
+               "responses": [
+                    "Apresiasi adalah bentuk penghargaan dan penilaian terhadap sesuatu kepada diri sendiri maupun orang lain. Langkah ini dapat dimulai dengan mengucapkan terima kasih atas usaha yang telah Anda berdua lakukan untuk menyelesaikan permasalahan yang sedang dihadapi."
+               ],
+               "context": []
+          },
+          {
+               "tag": "memikat_lelaki_yang_disuka",
+               "patterns": [
+                    "Bagaimana cara memikat lelaki yang kita suka?",
+                    "Cara ampuh untuk memikat hati lelaki yang disuka?"
+               ],
+               "responses": [
+                    "Begini nih cara ampuh memikat hati lelaki yang kita suka, antara lain 1. Mulai Buka Komunikasi  2. Berikan Perhatian  3. Kenali Lebih Dalam  4. Jangan Berlebihan  5. Lakukan Aktivitas Bersama  6. Berikan Hadiah"
+               ],
+               "context": [
+                    "mulai_buka_komunikasi",
+                    "berikan_perhatian",
+                    "kenali_lebih_dalam",
+                    "jangan_berlebihan",
+                    "lakukan_aktivitas_bersama",
+                    "berikan_hadiah"
+               ]
+          },
+          {
+               "tag": "mulai_buka_komunikasi",
+               "patterns": [
+                    "Cara buka komunikasi itu seperti apa?",
+                    "Gimana sih cara memulai kominikasi?"
+               ],
+               "responses": [
+                    "Gini nih aku kasih tahu caranya, coba ajak pasanganmu untuk saling terbuka dan menyelesaikan masalah yang kalian hadapi saat ini. Dengan mencoba saling terbuka, maka hal ini akan menghindari kesalahpahaman satu sama lain. Jadi, jangan memendamnya sendiri, Ok!"
+               ],
+               "context": []
+          },
+          {
+               "tag": "berikan_perhatian",
+               "patterns": [
+                    "Bagaimana cara memberi perhatian ke lelaki yang kita suka?",
+                    "Cara memberi perhatian ke lelaki yang kita suka itu seperti apa?"
+               ],
+               "responses": [
+                    "Jika kamu ingin mendapatkan hati seseorang maka kamu harus memberi perhatian dulu kepadanya. Berikan perhatian dalam bentuk yang wajar dan sesuai dengan kondisimu saat ini. Misalnya kamu dan pria tersebut sudah berteman maka berikan perhatian layaknya seorang teman. Perhatian ini bisa menjadi bentuk daya tarik yang akan disadari oleh pria tersebut. Pria yang kamu sukai akan merasa senang karena mendapat perhatian darimu. Tapi beda cerita jika pria yang kamu sukai punya sifat cuek."
+               ],
+               "context": []
+          },
+          {
+               "tag": "kenali_lebih_dalam",
+               "patterns": [
+                    "Cara mengenal lelaki yang kita suka lebih dalam itu seperti apa?",
+                    "Maksud dari kenali lebih dalam itu seperti apa?"
+               ],
+               "responses": [
+                    "Maksud dari kenali lebih dalam disini adalah mengenal sifat dan karakter lelaki yang kita sukai. Cobalah untuk mengenal pria tersebut lebih jauh lagi. Caranya dengan mengajak si pria berkomunikasi lebih intens. Selain itu kamu juga bisa mulai masuk ke circle pertemanan pria tersebut. Hal ini dilakukan agar kamu bisa mengenal karakternya lebih dalam melalui teman-teman di sekitarnya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "jangan_berlebihan",
+               "patterns": [
+                    "Tips apa saja yang bisa dilakukan agar kita tidak bersikap berlebihan ke lelaki yang kita suka?",
+                    "Arti jangan berlebihan itu apa?",
+                    "Apa saja sih cara menarik hati lelaki yang kitas ukai?"
+               ],
+               "responses": [
+                    "Jangan berlebihan disini tuh diartikan bahwa kita harus mampu untuk mengendalikan keinginan mendekati pria yang kita sukai. Usaha PDKT(pendekatan) boleh saja dilakukan tapi tidak boleh berlebihan ya:). Pendekatan yang berlebihan justru akan membuat seorang pria merasa malas atau bahkan ingin menjauh darimu (ilfil). Cara menarik hati cowok yang efektif adalah dengan mendekatinya secara perlahan tapi pasti. Sebaiknya kamu tidak terlihat terlalu ingin meluluhkan hati pria tersebut. Kamu sebaiknya juga bersikap seolah-olah cuek dan santai."
+               ],
+               "context": []
+          },
+          {
+               "tag": "lakukan_aktivitas_bersama",
+               "patterns": [
+                    "Bagaimana cara melakukan aktivitas bersama lelaki yang kita suka?",
+                    "Maksud dari lakukan aktivitas bersama itu apa?",
+                    "Cara mencari tau aktivitas yang dilakukan lelaki yang kita sukai kita gimana?"
+               ],
+               "responses": [
+                    "Lakukan aktivitas bersama disini maksudnya melakukan hal/kegiatan bersama pasangan kita. Sebaiknya kamu mulai mencari tahu aktivitas apa yang menjadi hobi dari lelaki yang kamu suka. Kemudian kamu bisa melakukan aktivitas tersebut supaya ada lebih banyak waktu yang dihabiskan bersama. Kesempatan untuk melakukan aktivitas bersama seperti ini mungkin tak mudah untuk didapatkan. Tapi kamu pasti bisa mengusahakannya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "berikan_hadiah",
+               "patterns": [
+                    "Cara menarik perhatian lelaki yang kita suka lewat hadiah seperti apa?",
+                    "Memberi hadiah itu seperti apa ?",
+                    "Apa saja sih hadiah yang bisa kita berikan?"
+               ],
+               "responses": [
+                    "Cara menarik hati pria dari kejauhan memang bisa sangat beragam. Salah satunya bisa kamu lakukan dengan mengirimkan hadiah. Tak perlu hadiah mahal, kamu bisa memberikan hadiah-hadiah sederhana yang maknanya begitu dalam untuk lelaki yang kamu suka. Hadiah bisa saja berupa jam tangan favorit, baju, bahkan kamu bisa masakin makanan kesukaan dia."
+               ],
+               "context": []
+          },
+          {
+               "tag": "tips",
+               "patterns": [
+                    "kasih aku tips dan trik dong",
+                    "kasih aku saran dong",
+                    "kasih saya saran dong",
+                    "berikan saya saran",
+                    "saran untuk saya",
+                    "tips untuk saya"
+               ],
+               "responses": [
+                    "Mau dikasih tips tentang apa nihh..? \n 1. bagaimana cara menjadi lelaki sejati \n 2. trik jitu mendekati wanita \n 3. berpenampilan yang baik dan menawan \n 4. bagaimana cara menjadi goodlooking",
+                    "Mau dikasih saran tentang apa nihh..? \n 1. bagaimana cara menjadi lelaki sejati \n 2. trik jitu mendekati wanita \n 3. berpenampilan yang baik dan menawan \n 4. bagaimana cara menjadi goodlooking"
+               ],
+               "context": [
+                    "lelaki_sejati",
+                    "mendekati_wanita",
+                    "berpenampilan",
+                    "goodlooking"
+               ]
+          },
+          {
+               "tag": "lelaki_sejati",
+               "patterns": [
+                    "bagaimana cara menjadi lelaki yang sejati",
+                    "Bagaimana cara menjadi lelaki yang sejati",
+                    "lelaki yang sejati"
+               ],
+               "responses": [
+                    "1. Punya prinsip \n 2. Sopan pada wanita \n 3. Punya impian \n 4. Rendah hati dan ramah \n 5. Percaya diri \n 6. Tidak licik \n 7. Tahu prioritas \n 8. Berani akui kesalahan"
+               ],
+               "context": [
+                    "punya_prinsip",
+                    "sopan",
+                    "punya_impian",
+                    "rendah_hati",
+                    "percaya_diri",
+                    "tidak_licik",
+                    "prioritas",
+                    "akui_kesalahan"
+               ]
+          }
+     ]
+}

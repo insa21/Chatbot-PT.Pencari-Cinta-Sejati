@@ -1,0 +1,51 @@
+{
+     "intents": [
+          {
+               "tag": "duda",
+               "patterns": [
+                    "Cara menjadi duda yang berkelas?",
+                    "Bagaimana cara agar menjadi duda yang berkelas?",
+                    "Gimana sih cara jadi duda berkelas?"
+               ],
+               "responses": [
+                    "1. Punya prinsip \n 2. Sopan pada wanita \n 3. Lebih tegas kepada wanita \n 4. Jual mahal \n 5. Bisa melakukan apa apa sendiri tanpa bantuan orang lain"
+               ],
+               "context": [
+                    "punya prinsip",
+                    "sopan santun",
+                    "tegas",
+                    "tidak murahan",
+                    "mandiri"
+               ]
+          },
+          {
+               "tag": "duda",
+               "patterns": [
+                    "Tantangan seorang duda?",
+                    "Apa saja tantangan seorang duda?",
+                    "Apa sih tantangan seorang duda?",
+                    "Tantangan seorang duda itu apa saja?"
+               ],
+               "responses": [
+                    "1. Sepi menjalani hidup yang serba sendiri \n 2. Jauh dari anak \n 3. Tidak ada yang mengurus \n 4. Harus hidup mandiri tanpa istri"
+               ],
+               "context": [
+                    "kesepian",
+                    "terisah jarak",
+                    "sendiri",
+                    "mandiri"
+               ]
+          },
+          {
+               "tag": "duda",
+               "patterns": [
+                    "Cara meyakinkan orangtua untuk menikah dengan duda?",
+                    "Bagaimana cara meyakinkan orang tua untuk menikah dengan duda?"
+               ],
+               "responses": [
+                    "1. Utarakan Perasaan Pada Orangtua  \n 2. Dengarkan Pendapat Orangtua \n 3. Yakinkan diri  \n 4. Layak menjadi suami \n 5. Harus terima pendapat apapun dari orang tua"
+               ],
+               "context": []
+          }
+     ]
+}

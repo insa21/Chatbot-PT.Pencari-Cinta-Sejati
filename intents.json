@@ -1,0 +1,1407 @@
+{
+     "intents": [
+          {
+               "tag": "greeting",
+               "patterns": [
+                    "Halo",
+                    "Apa kabar",
+                    "Ada orang disana?",
+                    "Hei",
+                    "Woy",
+                    "Kuy",
+                    "Salam"
+               ],
+               "responses": [
+                    "Halo, terima kasih telah bertanya",
+                    "Senang bertemu kamu",
+                    "Ada yang bisa saya bantu kawan?",
+                    "Hai, ada perlu apa?",
+                    "Yoi...."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "salam",
+               "patterns": [
+                    "Assalamualaikum"
+               ],
+               "responses": [
+                    "Waalaikumsalam"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "goodbye",
+               "patterns": [
+                    "Bye",
+                    "Sampai Jumpa",
+                    "Selamat Tinggal",
+                    "Dadah",
+                    "Dahh"
+               ],
+               "responses": [
+                    "Sampai jumpa lagi",
+                    "Semoga harimu menyenangkan",
+                    "Dadah! Kembali lagi yaa.....",
+                    "Senang berbincang dengan anda....",
+                    "Selamat menikmati harimu..."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "thanks",
+               "patterns": [
+                    "Terima kasih",
+                    "Makasih",
+                    "Thanks",
+                    "Terima Kasih Banyak",
+                    "Terima kasih telah membantu saya"
+               ],
+               "responses": [
+                    "Dengan senang hati",
+                    "Kapan saja saya siap membantu",
+                    "Sudah menjadi tugas saya",
+                    "Anda puas, saya juga puas"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "noanswer",
+               "patterns": [],
+               "responses": [
+                    "Maaf, saya tidak mengerti yang anda maksud",
+                    "Mohon untuk lebih spesifik lagi",
+                    "Saya tidak yakin bahwa saya mengerti"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "options",
+               "patterns": [
+                    "Bisakah kamu membantuku?",
+                    "Apa yang bisa kamu lakukan?",
+                    "Apa yang kamu tawarkan?",
+                    "Bagaimana kamu sangat membantu?",
+                    "Kamu bisa bantu aku?"
+               ],
+               "responses": [
+                    "Saya bisa membantu anda dalam hal percintaan, romansa, pendekatan, dan mungkin juga memberi sedikit saran akan cinta :)",
+                    "Saya menawarkan tentang bantuan di bidang asmara dan cinta bagi anda yang sedang masa lajang"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "simi",
+               "patterns": [],
+               "url": "https://api.simsimi.net/v2/?text={patterns}&lc=id",
+               "responses": [
+                    "https://api.simsimi.net/v2/?text={patterns}&lc=id"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "tips",
+               "patterns": [
+                    "kasih aku tips dan trik dong",
+                    "kasih aku saran dong",
+                    "kasih saya saran dong",
+                    "berikan saya saran",
+                    "saran untuk saya",
+                    "tips untuk saya"
+               ],
+               "responses": [
+                    "Mau dikasih tips tentang apa nihh..? \n 1. bagaimana cara menjadi lelaki sejati \n 2. trik jitu mendekati wanita \n 3. berpenampilan yang baik dan menawan \n 4. bagaimana cara menjadi goodlooking",
+                    "Mau dikasih saran tentang apa nihh..? \n 1. bagaimana cara menjadi lelaki sejati \n 2. trik jitu mendekati wanita \n 3. berpenampilan yang baik dan menawan \n 4. bagaimana cara menjadi goodlooking"
+               ],
+               "context": [
+                    "lelaki_sejati",
+                    "mendekati_wanita",
+                    "berpenampilan",
+                    "goodlooking"
+               ]
+          },
+          {
+               "tag": "lelaki_sejati",
+               "patterns": [
+                    "bagaimana cara menjadi lelaki yang sejati",
+                    "Bagaimana cara menjadi lelaki yang sejati",
+                    "lelaki yang sejati"
+               ],
+               "responses": [
+                    "1. Punya prinsip \n 2. Sopan pada wanita \n 3. Punya impian \n 4. Rendah hati dan ramah \n 5. Percaya diri \n 6. Tidak licik \n 7. Tahu prioritas \n 8. Berani akui kesalahan"
+               ],
+               "context": [
+                    "punya_prinsip",
+                    "sopan",
+                    "punya_impian",
+                    "rendah_hati",
+                    "percaya_diri",
+                    "tidak_licik",
+                    "prioritas",
+                    "akui_kesalahan"
+               ]
+          },
+          {
+               "tag": "punya_prinsip",
+               "patterns": [
+                    "punya prinsip",
+                    "punya prinsip itu apa ?"
+               ],
+               "responses": [
+                    "Pria sejati memiliki prinsip dalam hidupnya. Kemudian ia pun menciptakan beberapa aturan untuk menjalankan prinsip tersebut."
+               ],
+               "context": []
+          },
+          {
+               "tag": "sopan",
+               "patterns": [
+                    "sopan",
+                    "Sopan pada wanita"
+               ],
+               "responses": [
+                    "Pria sejati tahu bagaimana cara memperlakukan seorang wanita. Ia selalu memperlakukan istri atau kekasihnya dengan penuh kasih sayang."
+               ],
+               "context": []
+          },
+          {
+               "tag": "punya_impian",
+               "patterns": [
+                    "3. Punya impian",
+                    "Punya impian"
+               ],
+               "responses": [
+                    "Pria sejati rela bekerja keras demi menggapai impiannya. Sembari fokus mengejar mimpi, ia tak pernah lupa pada orang-orang yang dicintainya. Ia akan senantiasa meluangkan waktu untuk orang-orang yang mencintainya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "rendah_hati",
+               "patterns": [
+                    "4. Rendah hati dan ramah",
+                    "Rendah hati dan ramah",
+                    "Rendah hati",
+                    "ramah"
+               ],
+               "responses": [
+                    "Pria sejati punya sikap rendah hati dan ramah. Ia akan menghormati semua orang di sekitarnya, kecuali perilaku mereka kasar padanya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "percaya_diri",
+               "patterns": [
+                    "5. Percaya diri",
+                    "Percaya diri"
+               ],
+               "responses": [
+                    "Pria sejati memiliki aura yang kuat saat berjalan di hadapan siapa pun. Ia sangat menghargai dirinya dan tidak ingin tampil lemah di hadapan orang lain."
+               ],
+               "context": []
+          },
+          {
+               "tag": "tidak_licik",
+               "patterns": [
+                    "6. Tidak licik",
+                    "Tidak licik"
+               ],
+               "responses": [
+                    "Pria sejati memiliki sikap lugas dan jujur. Ia pantang bertindak seperti pengecut yang hanya bisa berbuat licik pada lawannya. Bahkan, ia tidak suka mengarang cerita untuk menutupi ketidakmampuannya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "prioritas",
+               "patterns": [
+                    "7. Tahu prioritas",
+                    "Tahu prioritas"
+               ],
+               "responses": [
+                    "Pria sejati tahu apa yang menjadi prioritasnya dalam hidup. Ia selalu memikirkan keluarganya sebelum mengumbar kesenangan duniawi."
+               ],
+               "context": []
+          },
+          {
+               "tag": "akui_kesalahan",
+               "patterns": [
+                    "8. Berani akui kesalahan",
+                    " Berani akui kesalahan"
+               ],
+               "responses": [
+                    "Bersedia mengakui kesalahan dan berjanji tidak mengulanginya. Pria sejati tidak menyalahkan orang lain atas kesalahannya sendiri. Ia sangat mengerti bahwa mengakui kesalahan tidak akan membuatnya terlihat lemah. Malah sebaliknya. Itu akan membuatnya terlihat tegas di mata orang lain."
+               ],
+               "context": []
+          },
+          {
+               "tag": "motivasi_pria_sejati",
+               "patterns": [
+                    "motivasi pria sejati",
+                    "kata-kata pria sejati"
+               ],
+               "responses": [
+                    "Semua butuh proses dalam bertransformasi. Namun, alangkah baiknya jika proses itu dimulai dari sekarang. Siapa pun bisa menjadi pria sejati, jika mau berusaha lebih keras."
+               ],
+               "context": []
+          },
+          {
+               "tag": "mendekati_wanita",
+               "patterns": [
+                    "bagaimana sih cara mendekati wanita",
+                    "trik jitu mendekati wanita",
+                    "cara mendekati wanita yang tepat",
+                    "bagaimana agar wanita tidak ilfile"
+               ],
+               "responses": [
+                    "1. Maksimalkan Penampilan 2. Pastikan Lo Selalu Wangi 3. Berikan Perhatian Lebih 4. Kirim Kode ke Gebetan 5. Cara Mendekati Wanita dengan Jadi Pendengar yang Baik 6. Pilih Topik Pembicaraan Ringan 7. Bersikap Sopan 8. Kurangi Rasa Nggak Pede"
+               ],
+               "context": []
+          },
+          {
+               "tag": "wanita_elegan",
+               "patterns": [
+                    "bagaimana sih cara menjadi wanita elegan",
+                    "trik menjadi wanita elegan"
+               ],
+               "responses": [
+                    "trik menjadi wanita elegan adalah 1. Jaga sikap 2. perhatikan ucapan"
+               ],
+               "context": [
+                    "jaga_sikap"
+               ]
+          },
+          {
+               "tag": "jaga_sikap",
+               "patterns": [
+                    "1. Jaga sikap",
+                    "jaga sikap"
+               ],
+               "responses": [
+                    "Seorang wanita yang dihormati orang lain adalah wanita yang punya attitude yang baik serta tahu cara bersikap yang benar. Ia juga tidak akan membuat orang lain merasa direndahkan, sehingga orang lain akan senang bergaul dengannya. Wanita yang bersikap dengan baik akan disegani orang lain karena mampu mengendalikan sikapnya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "pasangan_yang_kita_suka_laki_muda",
+               "patterns": [
+                    "bagaimana cara mendapatkan pasangan yang kita suka untuk laki-laki muda",
+                    "cara mendapatkan pasangan yang kita suka untuk laki-laki muda"
+               ],
+               "responses": [
+                    "cara mendapatkan pasangan yang kita suka adalah : \n 1. Banyak Bergaul \n 2. Aktif di Sosial Media"
+               ],
+               "context": [
+                    "banyak_bergaul",
+                    "aktif_disosmed"
+               ]
+          },
+          {
+               "tag": "banyak_bergaul",
+               "patterns": [
+                    "1. banyak bergaul",
+                    "banyak bergaul"
+               ],
+               "responses": [
+                    "Semua tutor punya ayang ini akan dimulai dari diri sendiri. Banyak orang mengeluh susah dapat pacar, tapi nggak sadar bahwa dirinya sedang terjebak di lingkup pergaulan yang itu-itu aja. Kalau jumlah teman baru lo nggak nambah, gimana caranya mau dapat pacar? Biar teman semakin banyak, lo bisa mulai dengan aktif di organisasi dan ekskul sekolah. Lo bisa daftar jadi anggota OSIS ataupun BEM di kampus untuk menambah kegiatan, sehingga semakin eksis."
+               ],
+               "context": []
+          },
+          {
+               "tag": "kelebihan nikah muda",
+               "patterns": [
+                    "apa kelebihan nikah di usia muda",
+                    "kelebihan nikah usia muda",
+                    "apa saja sih kelebihan nikah di usia muda"
+               ],
+               "responses": [
+                    "kelebihan nikah diusia muda adalah sebagai berikut : 1. Kondisi Fisik yang Ideal Bagi Seorang Wanita untuk Memiliki Anak, 2. Kesenjangan Usia yang Tidak Terlalu Besar Antara Orang Tua dan Anak, 3. Saling Mengoreksi Diri Menuju Pribadi yang Lebih Dewasa"
+               ],
+               "context": [
+                    "Kondisi-fisik",
+                    "Kesenjangan_usia",
+                    "mengkoreksi_diri"
+               ]
+          },
+          {
+               "tag": "kondisi_fisik",
+               "patterns": [
+                    " 1. Kondisi Fisik yang Ideal Bagi Seorang Wanita untuk Memiliki Anak",
+                    "Kondisi Fisik yang Ideal Bagi Seorang Wanita untuk Memiliki Anak",
+                    " 1. kondisi fisik yang ideal bagi seorang wanita untuk memiliki anak",
+                    "kondisi fisik yang ideal bagi seorang wanita untuk memiliki anak"
+               ],
+               "responses": [
+                    "Bagi seorang wanita, usia di bawah 30 tahun merupakan waktu yang paling ideal untuk memiliki anak. Hal ini dikarenakan setelah melewati usia 30 tahun, disebutkan sel telur yang dihasilkan sudah tidak secemerlang jika Anda berusia di awal 20-an. Karena itulah, dengan kondisi kesehatan yang masih prima, wanita berusia di bawah 30 tahun secara fisik lebih siap untuk mengalami kehamilan dan lebih aman saat melahirkan sehingga kesehatan si wanita dan bayinya lebih terjamin."
+               ],
+               "context": []
+          },
+          {
+               "tag": "Kesenjangan_usia",
+               "patterns": [
+                    "2. Kesenjangan Usia yang Tidak Terlalu Besar Antara Orang Tua dan Anak",
+                    "Kesenjangan Usia yang Tidak Terlalu Besar Antara Orang Tua dan Anak",
+                    "2. kesenjangan usia yang tidak terlalu besar antara orang tua dan anak",
+                    "kesenjangan usia yang tidak terlalu besar antara orang tua dan anak"
+               ],
+               "responses": [
+                    "Hal yang satu ini seringkali dijadikan alasan utama seseorang untuk menikah di usia muda. Seringkali, mereka menginginkan kesenjangan usia yang tidak terlalu besar di antara anak dan orang tua. Hal ini memungkinkan Anda sebagai orang tua untuk mengikuti tumbuh kembang anak secara intens sejak kecil dan bisa menemani mereka hingga di hari-hari tua Anda. Selain itu, masalah pendidikan anak-anak juga menjadi alasan yang mendasari ini. Ada beberapa pasangan yang sudah mulai mempertimbangkan masa depan pendidikan anak-anak mereka nantinya dengan menghitung usia pensiun dalam rangka menabung biaya pendidikan anak-anak."
+               ],
+               "context": []
+          },
+          {
+               "tag": "Kesenjangan_usia",
+               "patterns": [
+                    "3. Saling Mengoreksi Diri Menuju Pribadi yang Lebih Dewasa",
+                    "Saling Mengoreksi Diri Menuju Pribadi yang Lebih Dewasa",
+                    "3. saling mengoreksi diri menuju pribadi yang lebih dewasa",
+                    "saling mengoreksi diri menuju pribadi yang lebih dewasa"
+               ],
+               "responses": [
+                    "Jika Anda dan pasangan memutuskan untuk menikah di usia muda, maka baik Anda dan pasangan sama-sama memiliki kesempatan untuk mengoreksi diri satu sama lain menuju pribadi yang lebih matang dan dewasa. Tidak ada rumah tangga tanpa adanya bumbu-bumbu konflik, hal tersebut merupakan tantangan bagi Anda dan pasangan untuk belajar bertanggung jawab. Jika konflik dapat dikelola dengan baik dalam usia muda, tentu saja hal tersebut bisa menjadi nilai plus agar fondasi pernikahan Anda berdua semakin kuat kedepannya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "kekurangan nikah muda",
+               "patterns": [
+                    "apa kekurangan nikah di usia muda",
+                    "kekurangan nikah usia muda",
+                    "kekurangan nikah usia muda apa saja",
+                    "apa saja sih kekurangan nikah di usia muda"
+               ],
+               "responses": [
+                    "kekurangan nikah diusia muda adalah sebagai berikut : 1. Kondisi Mental dan Psikologis yang Masih Belum Matang, 2. Waktu untuk Mengeksplorasi Diri Menjadi Terbatas, 3. Sulit Menyesuaikan dengan Kehidupan Setelah Menikah"
+               ],
+               "context": [
+                    "kondisi_mental",
+                    "mengeksplorasi_diri",
+                    "menyesuaikan_diri"
+               ]
+          },
+          {
+               "tag": "kondisi_mental",
+               "patterns": [
+                    "1. Kondisi Mental dan Psikologis yang Masih Belum Matang",
+                    "Kondisi Mental dan Psikologis yang Masih Belum Matang",
+                    "1. kondisi mental dan psikologis yang masih belum matang",
+                    "kondisi mental dan psikologis yang masih belum matang"
+               ],
+               "responses": [
+                    "Memasuki usia 20 tahun, itulah saat transisi dimana seseorang mulai belajar bertanggung jawab atas dirinya sendiri terlepas dari campur tangan orang tua. Saat Anda memutuskan untuk menikah muda, Anda tidak hanya belajar untuk bertanggung jawab pada diri Anda sendiri, tetapi juga bertanggung jawab pada diri pasangan Anda. Padahal, di usia ini terkadang cara berpikir seseorang masih belum matang dan belum bisa memahami apa tujuan hidup yang sebenarnya. Seringkali, baik pria dan wanita, terjebak di dalam situasi ini dan saat mereka memutuskan untuk menikah muda, jalan pikiran mereka masih belum matang sehingga ada kemungkinan rumah tangga tidak berjalan dengan stabil."
+               ],
+               "context": []
+          },
+          {
+               "tag": "mengeksplorasi_diri",
+               "patterns": [
+                    "2. Waktu untuk Mengeksplorasi Diri Menjadi Terbatas",
+                    "Waktu untuk Mengeksplorasi Diri Menjadi Terbatas",
+                    "2. waktu untuk mengeksplorasi diri menjadi terbatas",
+                    "waktu untuk mengeksplorasi diri menjadi terbatas"
+               ],
+               "responses": [
+                    "Usia 20 tahun adalah usia dimana biasanya seseorang mulai mengeksplorasi diri serta menambah pengalaman di tempat-tempat yang belum pernah dikunjungi sebelumnya. Bagi para wanita yang memutuskan untuk menikah muda, mereka rela mengorbankan masa mudanya untuk mengurus keluarga dan membesarkan anak-anaknya. Sementara itu, wanita lain yang berusia sama masih bisa bersenang-senang bergaul dengan teman-teman yang sebaya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "menyesuaikan_diri",
+               "patterns": [
+                    "3. Sulit Menyesuaikan dengan Kehidupan Setelah Menikah",
+                    "Sulit Menyesuaikan dengan Kehidupan Setelah Menikah",
+                    "3. sulit menyesuaikan dengan kehidupan setelah menikah",
+                    "sulit menyesuaikan dengan kehidupan setelah menikah"
+               ],
+               "responses": [
+                    "Jika tidak dilandasi rasa cinta yang betul-betul mantap dan keyakinan yang kuat, pasangan yang menikah muda rentan akan perselingkuhan dan perceraian. Setelah menikah, biasanya Anda dapat mengenali karakter pasangan yang sesungguhnya. Seringkali perubahan tersebut tidak sesuai dengan karakter yang Anda lihat saat masih berpacaran, begitu manis dan sempurna. Jika Anda dan pasangan tidak dapat mengakomodasi perubahan, hal tersebut malah dapat membuat depresi dan tidak bahagia akan pernikahan Anda."
+               ],
+               "context": []
+          },
+          {
+               "tag": "kekurangan cowo",
+               "patterns": [
+                    "apa aja sih kekurangan cowo",
+                    "apa aja sih kekurangan laki-laki",
+                    "kekurangan laki-laki",
+                    "kekurangan laki laki",
+                    "kekurangan pria",
+                    "kekurangan cowo apa aja",
+                    "kekurangan cowo",
+                    "kekurangan cowo yang harus di ngertiin oleh cewe",
+                    "kelemahan cowo apa aja"
+               ],
+               "responses": [
+                    "Kekurangan cowo adalah sebagai berikut : 1. asik dengan dunianya sendiri, 2. kekanak - kanakan, 3. refershing mata, 4. Kebutuhan untuk dipuja"
+               ],
+               "context": [
+                    "1. asik dengan dunianya sendiri",
+                    "2. kekanak - kanakan",
+                    "3. refershing mata",
+                    "4. Kebutuhan untuk dipuja"
+               ]
+          },
+          {
+               "tag": "1. asik dengan dunianya sendiri",
+               "patterns": [
+                    "1. asik dengan dunianya sendiri",
+                    "asik dengan dunianya sendiri"
+               ],
+               "responses": [
+                    "cowok dan cewek pasti punya keasikan di dunianya sendiri. kalau cewek dunianya itu pergi berbelanja dan ngegosip, tapi kalo cowok dunianya adalah game dan olahraga favoritnya. jika anda merasa dicuekin karena cowok anda asik dengan dunianya sendiri, cobalah ngertiin si cowok itu. dia juga pasti ngertiin sister saat sister sedang sibuk membeli alat - alat kecantikan, pakaian dan ngerumpi bareng teman sister."
+               ],
+               "context": []
+          },
+          {
+               "tag": "2. kekanak - kanakan",
+               "patterns": [
+                    "2. kekanak - kanakan",
+                    "kekanak - kanakan"
+               ],
+               "responses": [
+                    "banyak cewek mencari pacar yang jauh lebih tua darinya, karena alasan mencari yang berpikiran dewasa dan matang. seorang cowok cenderung kekanak - kanakan dan ingin berlama - lama bersenang - senang, sedangkan seorang cewek itu lebih cepat dewasa (dalam segi pikiran). jadi sister, jika anda benar - benar mencintai pasangan anda, sister pasti bisa untuk membimbingnya kearah yang lebih baik. "
+               ],
+               "context": []
+          },
+          {
+               "tag": "3. refershing mata",
+               "patterns": [
+                    "3. refershing mata",
+                    "refershing mata",
+                    "Refershing mata"
+               ],
+               "responses": [
+                    "setiap cowok pasti sangat suka jika melirik cewek yang cantik dan sexy. jika anda memiliki pacar seperti itu, anda harus ngertiin dia. karena bukan berarti dia melihat cewek lain, dia akan mengkhianati anda dan selingkuh. untuk menegurnya gara - gara pasangan anda sedang refreshing mata, sister cukup ngambek pura - pura dan sedikit manja."
+               ],
+               "context": []
+          },
+          {
+               "tag": "4. kebutuhan untuk dipuja",
+               "patterns": [
+                    "4. Kebutuhan untuk dipuja",
+                    "4. kebutuhan untuk dipuja",
+                    "Kebutuhan untuk dipuja",
+                    "kebutuhan untuk dipuja"
+               ],
+               "responses": [
+                    "tak hanya cewek yang ingin dipuja, seorang cowok pun rupanya ingin sekali dipuja oleh sister. untuk itu sister perlu coba untuk memujanya dan katakan bahwa sister sangat benar - benar cinta dan sayang kepadanya. dengan itu si cowok pasti nge-fly deh. "
+               ],
+               "context": []
+          },
+          {
+               "tag": "kekurangan cewe",
+               "patterns": [
+                    "apa aja sih kekurangan cewe",
+                    "apa aja sih kekurangan waninta",
+                    "kekurangan wanita",
+                    "kekurangan perempuan",
+                    "kekurangan cewe apa aja",
+                    "kekurangan cewe",
+                    "kekurangan cewe yang harus di ngertiin oleh cowo",
+                    "kelemahan cewe apa aja"
+               ],
+               "responses": [
+                    "Kekurangan cewe adalah sebagai berikut : 1. kepercayaan diri yang diukur dari fisik, 2. emosional, 3. mudah memaafkan, 4. berharap pria selalu bersikap romantis, 5. mudah menyerahkan segalanya"
+               ],
+               "context": [
+                    "1. kepercayaan diri yang diukur dari fisik",
+                    "2. emosional",
+                    "3. mudah memaafkan",
+                    "4. berharap pria selalu bersikap romantis",
+                    "5. mudah menyerahkan segalanya"
+               ]
+          },
+          {
+               "tag": "1. kepercayaan diri yang diukur dari fisik",
+               "patterns": [
+                    "1. kepercayaan diri yang diukur dari fisik",
+                    "kepercayaan diri yang diukur dari fisik",
+                    "1. Kepercayaan diri yang diukur dari fisik",
+                    "Kepercayaan diri yang diukur dari fisik"
+               ],
+               "responses": [
+                    "kelemahan wanita dalam hubungannya dengan pria yang pertama adalah bahwa kebanyakan, meski tidak semua, dari para wanita menganggap para pria melihat mereka dari tampilan luar terlebih dahulu. hal ini tidak salah, tapi juga tidak bisa dibenarkan. namun fenomena menyatakan bahwa beberapa pria memang memiliki kekuatan untuk menjatuhkan rasa percaya diri wanita. hal ini lalu membuat beberapa wanita merasa insekyur dan berupaya untuk terlihat cantik setiap saat. saat sedang bersosialisasi, kecantikan paras lantas menjadi tanda kemenangan baginya terhadap teman atau kolega. pengakuan dari orang lain, terutama pria, menjadi validasi atas nilai dan keberhasilan yang dibawa oleh hal-hal fisik. "
+               ],
+               "context": []
+          },
+          {
+               "tag": "2. emosional",
+               "patterns": [
+                    "2. Emosional",
+                    "Emosional",
+                    "2. emosional",
+                    "emosional"
+               ],
+               "responses": [
+                    "kelemahan wanita dalam hubungannya dengan pria yang kedua adalah bahwa pada dasarnya wanita memang terlalu emosional. seperti sudah disebutkan sebelumnya, kebanyakan wanita membuat keputusan berdasarkan perasaan dan emosi terlebih dahulu, dan logika kemudian. sebagian besar dari wanita berpikir berlandaskan hati daripada organ lain yang semestinya. hal ini membuat keputusan-keputusan beberapa wanita ini menjadi terlihat tidak realistis, membuatnya menjadi sebuah kelemahan."
+               ],
+               "context": []
+          },
+          {
+               "tag": "3. mudah memaafkan",
+               "patterns": [
+                    "3. mudah memaafkan",
+                    "mudah memaafkan",
+                    "3. Mudah memaafkan",
+                    "Mudah memaafkan"
+               ],
+               "responses": [
+                    "kelemahan wanita dalam hubungannya dengan pria yang ketiga adalah kecenderungannya untuk mudah memaafkan. wanita diciptakan sedemikian rupa oleh tuhan. beberapa dari mereka akan berubah menjadi begitu pemaaf saat sedang menjalin hubungan dengan pria. alasannya jelas karena berlandaskan cinta, dan adalah hal yang wajar bagi setiap manusia untuk melakukan kesalahan."
+               ],
+               "context": []
+          },
+          {
+               "tag": "3. mudah memaafkan",
+               "patterns": [
+                    "3. mudah memaafkan",
+                    "mudah memaafkan",
+                    "3. Mudah memaafkan",
+                    "Mudah memaafkan"
+               ],
+               "responses": [
+                    "kelemahan wanita dalam hubungannya dengan pria yang ketiga adalah kecenderungannya untuk mudah memaafkan. wanita diciptakan sedemikian rupa oleh tuhan. beberapa dari mereka akan berubah menjadi begitu pemaaf saat sedang menjalin hubungan dengan pria. alasannya jelas karena berlandaskan cinta, dan adalah hal yang wajar bagi setiap manusia untuk melakukan kesalahan."
+               ],
+               "context": []
+          },
+          {
+               "tag": "4. berharap pria selalu bersikap romantis",
+               "patterns": [
+                    "4. berharap pria selalu bersikap romantis",
+                    "berharap pria selalu bersikap romantis"
+               ],
+               "responses": [
+                    "kelemahan wanita dalam hubungannya dengan pria yang keempat adalah bahwa banyak wanita yang berharap prianya akan selalu bersikap romantis setiap saat. sebagai wanita, terdapat beberapa tipe yang setiap saat ingin diberi tahu tentang seberapa besar ia dicintai oleh pasangannya. tapi sayangnya, tidak semua pria bisa memenuhi ekspektasi ini. dan hal ini lalu akan menyebabkan kekecewaan dan ketidakpuasan dari pihak wanita."
+               ],
+               "context": []
+          },
+          {
+               "tag": "5. mudah menyerahkan segalanya",
+               "patterns": [
+                    "5. mudah menyerahkan segalanya",
+                    "mudah menyerahkan segalanya"
+               ],
+               "responses": [
+                    "kelemahan wanita dalam hubungannya dengan pria yang kelima adalah cenderung mudah menyerahkan apa-apa yang menjadi miliknya. beberapa jenis wanita cenderung menyerahkan begitu saja sebagian besar hal-hal berharga dalam hidup mereka. baik itu apartemen, keuangan, waktu, tubuh, hati, dan daftarnya tidak akan ada habisnya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "kelebihan menjalin asmara dengan pria muda",
+               "patterns": [
+                    "apa aja sih kelebihan menjalin asmara dengan pria muda",
+                    "kelebihan menjalin asmara dengan pria muda apa aja",
+                    "kelebihan menjalin asmara dengan pria muda"
+               ],
+               "responses": [
+                    "Kekurangan cewe adalah sebagai berikut : 1. awet muda, 2. lebih menyenangkan, 3. mudah menerima nasihat"
+               ],
+               "context": [
+                    "1. awet muda",
+                    "2. lebih menyenangkan",
+                    "3. mudah menerima nasihat"
+               ]
+          },
+          {
+               "tag": "1. awet muda",
+               "patterns": [
+                    "1. awet muda",
+                    "awet muda"
+               ],
+               "responses": [
+                    "menjalani hubungan dengan pria yang usianya di bawahmu dapat membuatmu terlihat awet muda. baik dari segi penampilan, pikiran, maupun kepribadian. kamu akan menerima banyak hal baru yang dianggap kekinian. jadi, berbagai opini kolot bisa dikembangkan menjadi sesuatu yang sesuai dengan zaman."
+               ],
+               "context": []
+          },
+          {
+               "tag": "2. lebih menyenangkan",
+               "patterns": [
+                    "2. lebih menyenangkan",
+                    "lebih menyenangkan"
+               ],
+               "responses": [
+                    "menurut beberapa pakar hubungan, memiliki pasangan pria yang lebih muda jauh terasa menyenangkan. pasalnya, ia masih berjiwa petualang, sehingga kebanyakan tahu aktivitas yang dapat memicu rasa bahagia."
+               ],
+               "context": []
+          },
+          {
+               "tag": "2. lebih menyenangkan",
+               "patterns": [
+                    "2. lebih menyenangkan",
+                    "lebih menyenangkan"
+               ],
+               "responses": [
+                    "menurut beberapa pakar hubungan, memiliki pasangan pria yang lebih muda jauh terasa menyenangkan. pasalnya, ia masih berjiwa petualang, sehingga kebanyakan tahu aktivitas yang dapat memicu rasa bahagia. selain itu, pria muda juga cenderung mempunyai selera humor tinggi. jadi, saat menjalani hubungan dengannya, tidak jarang kamu akan mudah tertawa. ia bahkan tergolong mampu untuk memperbaiki mood yang mungkin rusak akibat masalah kehidupan."
+               ],
+               "context": []
+          },
+          {
+               "tag": "3. mudah menerima nasihat",
+               "patterns": [
+                    "3. mudah menerima nasihat",
+                    "mudah menerima nasihat"
+               ],
+               "responses": [
+                    "tidak sedikit pria yang usianya lebih muda akan mudah menerima nasihat. hal ini dikarenakan ia merasa kamu sudah memiliki berbagai pengalaman di banyak bidang. "
+               ],
+               "context": []
+          },
+          {
+               "tag": "kelebihan menikahi seorang duda",
+               "patterns": [
+                    "apa aja sih kelebihan menikahi seorang duda",
+                    "kelebihan duda",
+                    "kelebihan seorang duda",
+                    "kelebihan menikahi seorang duda apa aja",
+                    "kelebihan menikahi seorang duda",
+                    "kelebihan menikahi seorang duda yang harus di ngertiin oleh cowo"
+               ],
+               "responses": [
+                    "kelebihan menikahi seorang duda adalah sebagai berikut : 1. mereka punya berpengalaman, 2. mereka menghargai hubungan dan komitmen, 3. mereka tahu do and don't dalam pernikahan, 4. menghargai pentingnya komunikasi, 5. hidup dalam kehidupan nyata, 6. jago di ranjang"
+               ],
+               "context": [
+                    "1. mereka punya berpengalaman",
+                    "2. mereka menghargai hubungan dan komitmen",
+                    "3. mereka tahu do and don't dalam pernikahan",
+                    "4. menghargai pentingnya komunikasi",
+                    "5. hidup dalam kehidupan nyata",
+                    "6. jago di ranjang"
+               ]
+          },
+          {
+               "tag": "1. mereka punya berpengalaman",
+               "patterns": [
+                    "1. mereka punya berpengalaman",
+                    " mereka punya berpengalaman"
+               ],
+               "responses": [
+                    "meskipun pernah mengahlami kegagalan, namun jelas jika mereka punya pengalaman dalam hal pernikahan. mereka justru akan lebih hati-hati menjalani hubungan karena tidak ingin gagal untuk kedua kalinya."
+               ]
+          },
+          {
+               "tag": "2. mereka menghargai hubungan dan komitmen",
+               "patterns": [
+                    "2. mereka menghargai hubungan dan komitmen",
+                    "mereka menghargai hubungan dan komitmen"
+               ],
+               "responses": [
+                    "meski pernah bercerai, bukan berarti mereka tidak menghargai komitmen. justru sebaliknya, mereka akan lebih hati-hati menjalin komitmen dan tahu apa yang salah dalam hubungan sebelumnya. ia akan belajar dari kesalahannya yang lalu dan berusaha memperbaikinya di pernikahan selanjutnya."
+               ]
+          },
+          {
+               "tag": "3. mereka tahu do and don't dalam pernikahan",
+               "patterns": [
+                    "3. mereka tahu do and don't dalam pernikahan",
+                    "mereka tahu do and don't dalam pernikahan"
+               ],
+               "responses": [
+                    "karena sudah pernah gagal dan tentu tak ingin mengalaminya lagi, mereka belajar banyak dan tahu bagaimana bersikap saat menghadapi hal yang sama. ia juga akan belajar menghindari sebisa mungkin kesalahan dan masalah yang dulu pernah menghancurkan pernikahannya."
+               ]
+          },
+          {
+               "tag": "4. menghargai pentingnya komunikasi",
+               "patterns": [
+                    "4. menghargai pentingnya komunikasi",
+                    "menghargai pentingnya komunikasi"
+               ],
+               "responses": [
+                    "tidak seperti mereka yang tak pernah menikah, orang yang sudah pernah menikah dan bercerai pasti tahu pentingnya komunikasi, keterbukaan satu sama lain dan kepercayaan. ini adalah kunci keberhasilan suatu hubungan, dan mereka pasti akan menekankan komunikasi yang baik saat menjalani hubungan lagi."
+               ]
+          },
+          {
+               "tag": "5. hidup dalam kehidupan nyata",
+               "patterns": [
+                    "5. hidup dalam kehidupan nyata",
+                    "hidup dalam kehidupan nyata"
+               ],
+               "responses": [
+                    "tak ada lagi drama dalam pernikahan. mereka tahu bahwa pernikahan harus dipertahankan, mereka tak ingin ego mengalahkan mereka lagi. mereka juga tahu bahwa ekspektasi berlebihan dalam suatu hubungan juga tidak baik, karena itu mereka berusaha mengerti pasangannya yang sekarang."
+               ]
+          },
+          {
+               "tag": "6. jago di ranjang",
+               "patterns": [
+                    "6. jago di ranjang",
+                    "jago di ranjang"
+               ],
+               "responses": [
+                    "kehidupan seksualmu bisa jadi sangat menyenangkan jika menikah dengan duda. tentu saja alasannya adalah mereka lebih berpengalaman. mereka sudah mengerti cara membahagiakan dan memuaskan istri. kamu bahkan bisa meminta saran dan pendapat pada suami tentang urusan ranjang. tak perlu malu-malu mengutarakan yang kamu mau jika kamu menikahi duda."
+               ]
+          },
+          {
+               "tag": "kekurangan menikahi seorang duda",
+               "patterns": [
+                    "apa aja sih kekurangan menikahi seorang duda",
+                    "kekurangan duda",
+                    "kekurangan seorang duda",
+                    "kekurangan menikahi seorang duda apa aja",
+                    "kekurangan menikahi seorang duda"
+               ],
+               "responses": [
+                    "kekurangan menikahi seorang duda adalah sebagai berikut : 1. digosipkan banyak orang, 2. tidak direstui orangtua, 3. harus mengasuh anak yang bukan darah dagingnya, 4. tidak disukai oleh anak-anaknya, 5. rasa takut akan bercerai"
+               ],
+               "context": [
+                    "1. digosipkan banyak orang",
+                    "2. tidak direstui orangtua",
+                    "3. harus mengasuh anak yang bukan darah dagingnya",
+                    "4. tidak disukai oleh anak-anaknya",
+                    "5. rasa takut akan bercerai"
+               ]
+          },
+          {
+               "tag": "1. digosipkan banyak orang",
+               "patterns": [
+                    "1. digosipkan banyak orang",
+                    "digosipkan banyak orang"
+               ],
+               "responses": [
+                    "salah satu kekurangan yang mungkin saja bisa anda dapatkan jika menikah dengan seorang duda adalah akan digosipkan oleh banyak orang. terutama jika duda itu baru saja bercerai dengan sang istri kemudian langsung menikah dengan anda. hal itu tentu saja menjadi perbincangan banyak orang bukan? mungkin akan banyak tetangga atau orang sekitar anda yang menjadikan anda sebagai bahan gosip. misalnya saja jika duda itu kaya maka mungkin anda akan dibilang ingin mengambil kekayaannya atau mungkin digosipkan karena anda yang perawan memilih menikah dengan duda ketimbang pria yang sama-sama lajangnya. ketahuilah juga info mengenai kewajiban suami terhadap istri yang sedang hamil dan juga karakter pria berdasarkan rambut."
+               ]
+          },
+          {
+               "tag": "2. tidak direstui orangtua",
+               "patterns": [
+                    "2. tidak direstui orangtua",
+                    "tidak direstui orangtua"
+               ],
+               "responses": [
+                    "salah satu kekurangan yang mungkin saja bisa anda dapatkan jika menikah dengan seorang duda adalah akan digosipkan oleh banyak orang. terutama jika duda itu baru saja bercerai dengan sang istri kemudian langsung menikah dengan anda. hal itu tentu saja menjadi perbincangan banyak orang bukan? mungkin akan banyak tetangga atau orang sekitar anda yang menjadikan anda sebagai bahan gosip. misalnya saja jika duda itu kaya maka mungkin anda akan dibilang ingin mengambil kekayaannya atau mungkin digosipkan karena anda yang perawan memilih menikah dengan duda ketimbang pria yang sama-sama lajangnya. ketahuilah juga info mengenai kewajiban suami terhadap istri yang sedang hamil dan juga karakter pria berdasarkan rambut."
+               ]
+          },
+          {
+               "tag": "2. tidak direstui orangtua",
+               "patterns": [
+                    "2. tidak direstui orangtua",
+                    "tidak direstui orangtua"
+               ],
+               "responses": [
+                    "kekurangan yang selanjutnya jika anda menikah dengan seorang duda adalah mungkin saja tidak direstui oleh orangtua. tentu saja orangtua ingin yang terbaik bagi kita, bahkan orangtua banyak yang ingin jika anaknya mendapatkan jodoh yang sepadan dengan kita usinya. namun nyatanya banyak sekali orangtua yang mungkin saja tidak menyetujui jika sang anak menikah dengan seorang duda. terlebih jika duda itu sudah memiliki anak. oleh karena itu jika sang wanita sudah yakin akan menikah dengan duda itu maka terlebiha dahulu harus meyakinkan orangtuanya."
+               ]
+          },
+          {
+               "tag": "3. harus mengasuh anak yang bukan darah dagingnya",
+               "patterns": [
+                    "3. harus mengasuh anak yang bukan darah dagingnya",
+                    "harus mengasuh anak yang bukan darah dagingnya",
+                    "mengasuh anak yang bukan darah dagingnya"
+               ],
+               "responses": [
+                    "jika anda menikah dengan seorang duda yang sudah memiliki anak. maka mungkin anda harus mengasuh anak yang padahal tidak ada hubungan darahnya dengan anda. anak dari duda tersebut nantinya harus tinggal bersama dengan anda dan menjadi anak tiri anda. mungkin banyak sekali yang merasa ragu, karena sebelumnya belum pernah memiliki anak tiba-tiba saja harus mengurus anak. dan terlebih lagi jika harus mengurus anak yang lebih dari 1 pasti mungkin akan membutuhkan pertimbangan terlebih dahulu. namun jika anda memang menyayangi dan juga sudah berkomitmen menikah dengan duda itu maka apapun resikonya pasti akan anda tanggung dan jalani bersama."
+               ]
+          },
+          {
+               "tag": "4. tidak disukai oleh anak-anaknya",
+               "patterns": [
+                    "4. tidak disukai oleh anak-anaknya",
+                    "tidak disukai oleh anak-anaknya"
+               ],
+               "responses": [
+                    "ketika memutuskan untuk menikah dengan duda maka anda harus menyakinkan anaknya. sebisa mungkin sebagai calon istrinya anda mendekatkan diri dengan anak dari calon suami anda. anda harus bisa mendapatkan hatinya, dan mungkin bersikap keibuan sehingga bisa menikah. karena banyak sekali anak dari duda yang tidak ingin ayahnya menikah lagi bahkan sampai membenci dan memusuhi calon istri ayahnya."
+               ]
+          },
+          {
+               "tag": "5. rasa takut akan bercerai",
+               "patterns": [
+                    "5. rasa takut akan bercerai",
+                    "rasa takut akan bercerai"
+               ],
+               "responses": [
+                    "mungkin saja, banyak sekali wanita yang ingin menikah dengan duda menjadi ragu. hal ini mungkin saja disebabkan karena rasa takut resiko berecerai sebelum menikah dengan duda. mungkin saja banyak yang berpikir, jika ia tidak bisa mempertahankan pernikahan yang sebelumnya, maka mungkin resiko itu bisa terjadi dengan pernikahan keduanya ini. namun jika anda sudah memiliki komitmen maka tidak akan berpikiran seperti itu ya. ketahui juga informasi mengenai tips menjadi janda yang baik."
+               ]
+          },
+          {
+               "tag": "kelebihan menikahi seorang janda",
+               "patterns": [
+                    "apa aja sih kelebihan menikahi seorang janda",
+                    "kelebihan janda",
+                    "kelebihan seorang janda",
+                    "kelebihan menikahi seorang janda apa aja",
+                    "kelebihan menikahi seorang janda"
+               ],
+               "responses": [
+                    "kelebihan menikahi seorang janda adalah sebagai berikut : 1. sudah berpengalaman, 2. sabar, 3. mandiri, 4. komitmen kuat"
+               ],
+               "context": [
+                    "1. sudah berpengalaman",
+                    "2. sabar",
+                    "3. mandiri",
+                    "4. komitmen kuat"
+               ]
+          },
+          {
+               "tag": "1. sudah berpengalaman",
+               "patterns": [
+                    "1. sudah berpengalaman",
+                    "sudah berpengalaman"
+               ],
+               "responses": [
+                    "kehidupan seksual janda tentu berbeda dengan gadis. kamu tidak perlu melalui masa ‘ujicoba’ segala bentuk hubungan seksual seperti saat menikahi gadis. tak perlu mencari-cari cara berhubungan seksual yang memuaskan karena janda tentu sudah memiliki pengalaman. bahkan, bisa jadi kamu yang belajar dari istrimu kelak setelah menikah.dengan begitu, ia tidak lagi kaku dan pasif seperti halnya gadis yang baru pertama kali bercinta. ia juga pandai merayu dan melontarkan kata-kata pujian yang menyenangkan pasangannya. tidak sedikit dari mereka yang membimbing pasangannya saat bercinta. tak heran, banyak perjaka puas dan bahagia menikahi janda."
+               ],
+               "context": []
+          },
+          {
+               "tag": "2. sabar",
+               "patterns": [
+                    "2. sabar",
+                    "sabar"
+               ],
+               "responses": [
+                    "janda yang sudah memiliki anak tentu lebih sabar dibanding dengan gadis. mereka sudah memiliki pengalaman membesarkan anak yang butuh kesabaran tinggi. sifat keibuan melekat pada janda sehingga pria merasa lebih dijaga dan disayangi dengan baik."
+               ],
+               "context": []
+          },
+          {
+               "tag": "3. mandiri",
+               "patterns": [
+                    "3. mandiri",
+                    "mandiri"
+               ],
+               "responses": [
+                    "melalui status janda secara tidak langsung menuntut seorang wanita menjadi mandiri. karena mau tidak mau seorang janda harus bisa menghidupi diri sendiri dan anaknya. kemandirian ini membuat seorang janda tegas dalam mengambil apapun keputusan dalam hidupnya. kamu tak perlu capek mengatur banyak hal seperti pasangan sesama lajang yang pertama menikah. apalagi jika kamu menikahi janda yang mapan secara ekonomi. orang bilang, ini bonus untuk mereka yang bersedia menikahi janda."
+               ],
+               "context": []
+          },
+          {
+               "tag": "4. komitmen kuat",
+               "patterns": [
+                    "4. komitmen kuat",
+                    "komitmen kuat"
+               ],
+               "responses": [
+                    "kegagalan pernikahan bagi janda adalah pukulan telak baginya. tentu dia akan belajar menghargai ikatan yang akan dibangun denganmu jika menikah lagi. dia tentu tak ingin pernikahan denganmu akan gagal lagi. sehingga janda akan memiliki komitmen yang kuat dalam pernikahan barunya. keinginannya tersebut membuatnya tak ingin mempermainkan cinta dan perasaan orang lain. ketika kamu bisa mendapat kepercayaan dan keyakinannya, maka kamu bisa percaya pada komitmennya."
+               ],
+               "context": []
+          },
+          {
+               "tag": "aplikasi cari jodoh",
+               "patterns": [
+                    "tolong cariin saya aplikasi pencari jodoh",
+                    "aplikasi pencari jodoh ada apa aja",
+                    "cari jodoh",
+                    "cariin saya jodoh",
+                    "aplikasi cari jodoh",
+                    "cariin saya pasangan dong",
+                    "aplikasi cari jodoh paling hits"
+               ],
+               "responses": [
+                    "Yang Jomblo Merapat, Ini 8 + 1  Aplikasi Cari Jodoh Paling Hits : 1. happn, 2. tinder, 3. bumble, 4. tantan, 5. okcupid, 6. jodoh kristen, 7. hawaya, 8. taaruf id, 9. Chatbot PT. Pencari Cinta Sejati"
+               ],
+               "context": [
+                    "1. happn",
+                    "2. tinder",
+                    "3. bumble",
+                    "4. tantan",
+                    "5. okcupid",
+                    "6. jodoh kristen",
+                    "7. hawaya",
+                    "8. taaruf id",
+                    "9. Chatbot PT. Pencari Cinta Sejati"
+               ]
+          },
+          {
+               "tag": "1. happn",
+               "patterns": [
+                    "1. happn",
+                    "happn"
+               ],
+               "responses": [
+                    "Aplikasi Happn mencocokkan penggunanya dengan pengguna lain yang lokasinya tidak jauh atau berdekatan. ini merupakan konsep keren dan sangat membantu bagi mereka yang ingin bertemu seseorang dengan cara yang lebih kasual. aplikasi ini juga akan memberi tahu anda berapa orang yang telah berpapasan dengan anda, dalam durasi waktu tertentu. happn seperti dirancang untuk orang yang tidak begitu ingin menggunakan aplikasi kencan online, namun juga tidak ingin mendekati seseorang secara langsung di kehidupan nyata."
+               ],
+               "context": []
+          },
+          {
+               "tag": "2. tinder",
+               "patterns": [
+                    "2. tinder",
+                    "tinder"
+               ],
+               "responses": [
+                    "Aplikasi pencari jodoh yang satu ini pasti sudah tidak asing lagi. tinder mungkin sudah menjadi top of mind orang-orang kalau ditanya soal dating app. ketenarannya bukan tanpa alasan, aplikasi tinder tidak ribet dan mudah digunakan. anda bisa melihat kandidat yang sedang pertimbangkan."
+               ],
+               "context": []
+          },
+          {
+               "tag": "3. bumble",
+               "patterns": [
+                    "3. bumble",
+                    "bumble"
+               ],
+               "responses": [
+                    "aplikasi ini pada dasarnya adalah tinder untuk wanita, namun dengan timer. para wanita menjadi yang harus mengirim pesan terlebih dahulu. kemudian, apabila pria yang 'match' (saling suka satu sama lain) tidak membalas pesan dalam waktu 24 jam, maka status 'match' itu akan hilang. konsep timer ini dirancang untuk mendorong kontak secara langsung dan banyak pengguna yang suka dengan cara kerja itu. selain fitur mencari jodoh, bumble juga memiliki fitur bff yang bisa membantu kamu untuk menemukan teman baru."
+               ],
+               "context": []
+          },
+          {
+               "tag": "4. tantan",
+               "patterns": [
+                    "4. tantan",
+                    "tantan"
+               ],
+               "responses": [
+                    "ini merupakan aplikasi cukup populer di kalangan para remaja maupun orang dewasa. pengguna bisa menemukan berbagai macam orang untuk teman chatting, kencan, bahkan ke jenjang yang lebih serius. pengguna hanya perlu match untuk bisa melakukan obrolan lebih intens dengan orang yang dipilih."
+               ],
+               "context": []
+          },
+          {
+               "tag": "5. okcupid",
+               "patterns": [
+                    "5. okcupid",
+                    "okcupid"
+               ],
+               "responses": [
+                    "okcupid hampir mirip dengan tinder, bahkan keduanya dimiliki oleh perusahaan yang sama. aplikasi ini sama-sama berfokus pada swipe dan swipe."
+               ],
+               "context": []
+          },
+          {
+               "tag": "6. jodoh kristen",
+               "patterns": [
+                    "6. jodoh kristen",
+                    "jodoh kristen"
+               ],
+               "responses": [
+                    "aplikasi ini dikhususkan untuk pengguna beragama kristen. aplikasi jodoh kristen menerapkan sistem pencocokan dengan mempertimbangkan kriteria kedua belah pihak, ketika dianggap cocok, mereka dapat melakukan komunikasi lebih lanjut melalui chat atau tatap muka melalui kencan. para pengguna bisa mendaftar dengan mengunduh aplikasinya melalui google play store dan situs www.jodohkristen.com"
+               ],
+               "context": []
+          },
+          {
+               "tag": "7. hawaya",
+               "patterns": [
+                    "7. hawaya",
+                    "hawaya"
+               ],
+               "responses": [
+                    "hawaya merupakan aplikasi mencari jodoh yang dikhususkan untuk muslim. aplikasi ini berasal dari mesir, tapi bisa digunakan di seluruh negara. aplikasi ini begitu mengedepankan privasi dan keamanan pengguna. mereka mengombinasikan ai dan moderasi agar mencegah penggunaan profil palsu. tak hanya itu, disediakan juga opsi 'blur my photos' agar foto hanya dapat dilihat oleh orang yang terhubung saja. ada pula fitur 'mode penjaga' yang dapat mengundang teman atau anggota keluarga terpercaya ke dalam obrolan untuk mendapatkan masukan dan saran. hawaya bisa diunduh di ios dan android."
+               ],
+               "context": []
+          },
+          {
+               "tag": "7. hawaya",
+               "patterns": [
+                    "7. hawaya",
+                    "hawaya"
+               ],
+               "responses": [
+                    "hawaya merupakan aplikasi mencari jodoh yang dikhususkan untuk muslim. aplikasi ini berasal dari mesir, tapi bisa digunakan di seluruh negara. aplikasi ini begitu mengedepankan privasi dan keamanan pengguna. mereka mengombinasikan ai dan moderasi agar mencegah penggunaan profil palsu. tak hanya itu, disediakan juga opsi 'blur my photos' agar foto hanya dapat dilihat oleh orang yang terhubung saja. ada pula fitur 'mode penjaga' yang dapat mengundang teman atau anggota keluarga terpercaya ke dalam obrolan untuk mendapatkan masukan dan saran. hawaya bisa diunduh di ios dan android."
+               ],
+               "context": []
+          },
+          {
+               "tag": "8. taaruf id",
+               "patterns": [
+                    "8. taaruf id",
+                    "taaruf id"
+               ],
+               "responses": [
+                    "ini merupakan aplikasi cari jodoh buatan indonesia. tak hanya untuk pengguna beragama islam, namun penganut agama lain pun juga dapat menggunakan aplikasi ini. aplikasi ini nantinya akan merekomendasi pasangan yang sesuai dengan preferensi pengguna. taaruf id juga mengimbau pengguna untuk tidak bertemu berdua secara tatap muka dan disarankan untuk membawa seorang wali jika ingin bertemu secara langsung."
+               ],
+               "context": []
+          },
+          {
+               "tag": "9. Chatbot PT. Pencari Cinta Sejati",
+               "patterns": [
+                    "9. Chatbot PT. Pencari Cinta Sejati",
+                    "Chatbot PT. Pencari Cinta Sejati",
+                    "9. chatbot pt. pencari cinta sejati",
+                    "chatbot pt. pencari cinta sejati",
+                    "PT. Pencari Cinta Sejati",
+                    "pt. pencari cinta sejati"
+               ],
+               "responses": [
+                    "Aplikasi yang paling kita tunggu Launchingnya yaitu Chatbot PT. Pencari Cinta Sejati walaupun agak berbeda dengan aplikasi yang diatas. Tapi, aplikasi ini tidak bisa di anggap remeh dan bahkan berani bersaing dengan aplikasi-aplikasi yang dijelaskan di atas. Memangnya apa aja sih fitur dalam aplikasi ini ? Bisa dibilang fitur dalam aplikasi ini sangatlah banyak: mulai dari bangaimana cara mendapatkan pasangan sampai bagaimana cara menghadapi masalah di rumah tangga, menyediakan tips & trik dan bahkan bisa juga di jadikan sebagai teman ngobrol ketika anda gabut. bagaimana menurut kamu apakah tertarik menggunakan aplikasi ini ?. \n "
+               ],
+               "context": []
+          },
+          {
+               "tag": "mencari_pasangan_janda",
+               "patterns": [
+                    "Gimana agar saya dapat pasangan janda muda",
+                    "Gimana cara dapat janda",
+                    "Saya pingin dapat janda",
+                    "Pingin janda nih"
+               ],
+               "responses": [
+                    "Kamu punya selera yang unik juga yaa kawan. Ada beberapa tips nih \n1. Bersikap Lembut\n2. Bersikap Mendukung\n3. Kamu Harus Percaya Diri\n4. Bersyukur\n5.Pengertian\n6. Penasaran"
+               ],
+               "context": [
+                    "bersikap_lembut",
+                    "bersikap_mendukung",
+                    "kamu_harus_percaya_diri",
+                    "bersyukur",
+                    "pengertian",
+                    "penasaran"
+               ]
+          },
+          {
+               "tag": "bersikap_lembut",
+               "patterns": [
+                    "Maksdunya bersikap lembut",
+                    "Bersikap lembut tuh gimana",
+                    "Bersikap lembut"
+               ],
+               "responses": [
+                    "Ya kayak kamu harus selalu sabar jika sang pujaan mu itu terlalu emosional karena kamu lama balas chat. Kamu harus sabar karena mungkin ini efek dari masa lalunya yang pernah dibegituin sama suaminya dulu. Keep Strong my Brother ;)"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "bersikap_mendukung",
+               "patterns": [
+                    "Bersikap mendukung gimana maksudnya",
+                    "Maksudnya bersikap mendukung?",
+                    "Bersikap mendukung?"
+               ],
+               "responses": [
+                    "Maksudnya itu, kamu harus senantiasa mendukung dia dari keterpurukan. Luka kehilangan tentu saja tidak sembuh dalam semalam. Kesedihan yang dibawa pun mungkin tidak akan pernah hilang selamanya. Kamu harus peka menghiburnya saat doi dirundung pilu akan masa lalunya yang mungkin cukup kelam baginya. Gitu bro"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "kamu_harus_percaya_diri",
+               "patterns": [
+                    "Aku harus percaya diri?",
+                    "Maksudnya percaya diri itu gimana?",
+                    "Percaya diri?"
+               ],
+               "responses": [
+                    "Maksudnya itu, kamu harus senantiasa mendukung dia dari keterpurukan. Luka kehilangan tentu saja tidak sembuh dalam semalam. Kesedihan yang dibawa pun mungkin tidak akan pernah hilang selamanya. Kamu harus peka menghiburnya saat doi dirundung pilu akan masa lalunya yang mungkin cukup kelam baginya. Gitu bro"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "bersyukur",
+               "patterns": [
+                    "Bersyukur gimana ya",
+                    "Maksudnya bersyukur",
+                    "Bersyukur?"
+               ],
+               "responses": [
+                    "Iya bersyukur, kamu harus mensyukuri nikmat Tuhan dengan menerima segala kekurangan sang pujaanmu, kamu juga tidak boleh menilai sebelah mata sang janda idamanmu karena dia pasti dapat menjadikanmu lelaki yang kuat dan bertanggung jawab"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "pengertian",
+               "patterns": [
+                    "Aku harus pengertian gimana",
+                    "Maksudnya pengertian?",
+                    "Pengertian?"
+               ],
+               "responses": [
+                    "Yups, kamu harus selalu pengertian kepada sang janda incaranmu karena kehilangan yang mendalam bisa mengubah hidup dan kesedihan abadi bagi sang janda. Jika kamu belum pernah mengalami kehilangan yang mendalam, cobalah perluas pemahaman Anda tentang rasa kesedihan. Ini bisa membawa keajaiban bagi asmara kamu dengan seorang janda. Gitu ya bro"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "penasaran",
+               "patterns": [
+                    "Aku harus penasaran pada apa",
+                    "Maksudnya penasarana apa",
+                    "Penasaran gimana maksudnya",
+                    "Penasaran?"
+               ],
+               "responses": [
+                    "Maksudnya gini loh, Ajuin beberapa pertanyaan tentang orang yang dicintai dan dengarkan kisahnya secara seksama. Doi mungkin akan merasa sangat lega saat mengetahui orang baru dalam hidupnya baik-baik saja dengan orang yang mati dalam hidupnya. Jadi tanyakan, dengarkan, dan kenali orangnya. Maksudnya gitu bro"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "tantangan_janda",
+               "patterns": [
+                    "Jadi janda tantangannya apa aja sih",
+                    "Apa aja tantangan jadi janda",
+                    "Janda tantangannya apa aja",
+                    "Tantangan jadi janda"
+               ],
+               "responses": [
+                    "Hmmm....pertanyaan menarik. Jadi gini bro, ada beberapa tantangan jadi janda misalnya kaya minta bantuan pria aja dianggap modus. Ada juga lagi bro, pandangan masyarakat itu menganggap kalo janda itu butuh belaian, belum lagi dibenci istri orang walau nggak ngapa-ngapain suami mereka. Beratkan bro, makanya hargai mereka selayaknya loe hargai ibu loe..."
+               ],
+               "context": [
+                    "tantangan"
+               ]
+          },
+          {
+               "tag": "restu_kawin_sama_janda",
+               "patterns": [
+                    "Gimana cara aku supaya dapat restu orang tua nikah sama janda",
+                    "Dapat restu orang tua untuk nikahi janda",
+                    "Cara buat dapat restu orang tua nikahi janda",
+                    "Restu orang tua izinin nikahi janda itu gimana"
+               ],
+               "responses": [
+                    "Widih udah siap aja nih romannya. Jadi menurukku gini bro ada yang harus kamu lakukan kaya 1. Dekati orang tuamu, 2. Bujuk secara halus, 3. Tunjukin bahwa kamu emang udah siap, 4. Kamu menerima dia apa adanya, 5. Pujaanmu orang yang baik"
+               ],
+               "context": [
+                    "dekati_orang_tua",
+                    "bujuk_secara_halus",
+                    "tunjukin_siap",
+                    "menerima_dia",
+                    "dia_orang_baik"
+               ]
+          },
+          {
+               "tag": "dekati_orang_tua",
+               "patterns": [
+                    "Maksudnya dekati orang tua?",
+                    "Dekati gimana maksudnya?",
+                    "Dekati orang tua?",
+                    "Aku harus dekati orang tuaku buat apa?"
+               ],
+               "responses": [
+                    "Ya dekati orang tuamu itu kamu omongin masalah ini secara intensif maksudnya. Kamu utarakan bahwa kamu itu memang tulus cinta sama doi bukan atas nafsu semata atau hal lain. Ingat bro, ngomongnya harus secara halus, jangan ada unsur paksaan karena ridho orang tuamu-lah yang bisa membuat rumah tangga mu aman dan tentram."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "bujuk_secara_halus",
+               "patterns": [
+                    "Maksudnya dekati orang tua?",
+                    "Dekati gimana maksudnya?",
+                    "Dekati orang tua?",
+                    "Aku harus dekati orang tuaku buat apa?"
+               ],
+               "responses": [
+                    "Orang tuamu itu dibujuk secara perlahan tapi pasti dari waktu ke waktu. Kamu bujuk secara halus dengan kata-kata yang sopan supaya orang tuamu terketuk hatinya menerima hubungan kamu."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "tunjukin_siap",
+               "patterns": [
+                    "Apanya yang perlu ditunjukin?",
+                    "Maksudnya tunjukin?",
+                    "Apa maksud dari tunjukin siap?"
+               ],
+               "responses": [
+                    "Kamu tunjukin tuh ke orang tuamu bahwasannya kamu tuh sudah siap berumah tangga. Kamu bisa bertanggung jawab atas apa yang sudah kamu putuskan."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "menerima_dia",
+               "patterns": [
+                    "Kalo menerima itu maksudnya?",
+                    "Menerima gimana?",
+                    "Menerima dia?"
+               ],
+               "responses": [
+                    "Ya kamu jelasin bahwa kamu menerima dia apa adanya tanpa ada unsur lain. Jelasin juga bahwa kamu tidak masalah atas statusnya sebagai janda karena memang kamu mencintai dia apa adanya bukan karena rupa, harta, ataupun saldo Dana. Gitu ya bro"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "dia_orang_baik",
+               "patterns": [
+                    "Kalo dia orang baik itu gimana?",
+                    "Maksudnya dia orang baik?"
+               ],
+               "responses": [
+                    "Kamu jelasin bahwa dia orang yang baik dan dari keluarga yang baik pula. Dia menerima segala kekurangan kamu dan tulus mencintai kamu tanda memandang aspek lain dari diri kamu. Itu ya bro :)"
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "janda_berkelas",
+               "patterns": [
+                    "Gimana sih caranya jadi janda yang elegan dan berkelas",
+                    "Cara menjadi janda yang elegan dan berkelas"
+               ],
+               "responses": [
+                    "Naaah, ada beberapa aspek yang perlu diperhatikan nih sob kalo mau jadi janda berkelas dan elegan, seperti 1. Kalau menjalin hubungan tidak perlu publikasi, 2. Jika memungkinkan jangan terlalu sering pergi menginap, 3.  Hindari menerima tamu pria terlalu sering, 4. Perhatikan penampilan, 5. Jangan respon candaan pria yang sifatnya mesum, 6. Fokus dengan kegiatan yang positif, 7. Miliki pekerjaan dan jadilah mandiri, 8. Jangan langsung menerima pria masuk dalam kehidupan pribadi"
+               ],
+               "context": [
+                    "tidak_publikasi",
+                    "jangan_sering_menginap",
+                    "hindari_tamu_pria",
+                    "perhatikan_penampilan",
+                    "jangan_respon",
+                    "fokus",
+                    "mandiri",
+                    "jangan_langsung_menerima"
+               ]
+          },
+          {
+               "tag": "tidak_publikasi",
+               "patterns": [
+                    "Maksudnya tidap perlu publikasi?",
+                    "Apa maksud tidak perlu publikasi?"
+               ],
+               "responses": [
+                    "Menjalin hubungan dengan pria untuk mengenal lebih jauh sebelum memutuskan akan serius atau tidak, seharusnya dilakukan secara diam-diam. Jangan sampai para tetangga tahu dengan semua itu."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "jangan_sering_menginap",
+               "patterns": [
+                    "Maksudnya jangan sring menginap?",
+                    "Kenapa jangan sering menginap?"
+               ],
+               "responses": [
+                    "Pergi menginap meskipun di rumah teman wanita, jika tidak benar-benar penting sebaiknya dihindari. Ini untuk menghindari pikiran orang lain, yang menganggap pergi menginap bersama laki-laki."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "hindari_tamu_pria",
+               "patterns": [
+                    "Kenapa tidak boleh menerima tamu pria?",
+                    "Apa masalahnya menerima tamu pria?"
+               ],
+               "responses": [
+                    "Menerima tamu pria tanpa orang tahu kepentingannya juga bisa menciptakan dugaan buruk para tetangga. Apalagi malam dan di rumah tidak ada orang lain."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "perhatikan_penampilan",
+               "patterns": [
+                    "Kenapa harus memperhatikan penampilan?",
+                    "Ada apa dengan penampilan?"
+               ],
+               "responses": [
+                    "Tentunya penampilan tertutup atau penampilan yang terlihat berkelas. Hindari berpakaian minim terutama ketika keluar rumah."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "jangan_respon",
+               "patterns": [
+                    "Kenapa tidak boleh merespon candaan pria?",
+                    "Apa penyebab tidak boleh merespon candaan pria?"
+               ],
+               "responses": [
+                    "Kadang ada pria yang sengaja memancing candaan dengan topik mesum. Mereka cuma iseng dan kalau direspon bisa besar kepala. Mendingan diam saja dan tunjukkan bahwa kamu tidak suka dengan gaya bercanda seperti itu."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "fokus",
+               "patterns": [
+                    "Fokus dalam hal apa?",
+                    "Kenapa harus fokus dengan kegiatan positif?"
+               ],
+               "responses": [
+                    "Untuk mengisi waktu luang, fokuskan diri pada kegiatan positif. Seperti kegiatan keagamaan, bakti sosial, dan sebagainya. Hindari aktivitas yang mengarah kepada kebebasan pergaulan. Ini akan memberikan citra negatif apalagi statusnya sudah janda."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "mandiri",
+               "patterns": [
+                    "Kenapa harus mandiri?",
+                    "Kenapa harus memiliki pekerjaan?"
+               ],
+               "responses": [
+                    "Pekerjaan tetap yang akan membuat diri menjadi lebih mandiri. Utamakan pekerjaan yang memang bisa menaikkan status sosial. Dengan ini, orang lain akan memiliki penilaian yang berbeda. Apalagi jika bisa menjadi tulang punggung untuk keluarga dan anak jika sudah punya."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "jangan_langsung_menerima",
+               "patterns": [
+                    "Kenapa tidak boleh langsung menerima pria masuk ke kehidupan?",
+                    "Tidak boleh menerima pria ke kehidupan?"
+               ],
+               "responses": [
+                    "Jika pria cuma ingin iseng atau coba-coba, biarkan dia berusaha lebih keras. Itu tidak akan jadi masalah, karena kalau saja memang serius pasti akan mencari cara untuk lebih dekat."
+               ],
+               "context": [
+                    ""
+               ]
+          },
+          {
+               "tag": "duda",
+               "patterns": [
+                    "Cara menjadi duda yang berkelas?",
+                    "Bagaimana cara agar menjadi duda yang berkelas?",
+                    "Gimana sih cara jadi duda berkelas?"
+               ],
+               "responses": [
+                    "1. Punya prinsip \n 2. Sopan pada wanita \n 3. Lebih tegas kepada wanita \n 4. Jual mahal \n 5. Bisa melakukan apa apa sendiri tanpa bantuan orang lain"
+               ],
+               "context": [
+                    "punya prinsip",
+                    "sopan santun",
+                    "tegas",
+                    "tidak murahan",
+                    "mandiri"
+               ]
+          },
+          {
+               "tag": "duda",
+               "patterns": [
+                    "Tantangan seorang duda?",
+                    "Apa saja tantangan seorang duda?",
+                    "Apa sih tantangan seorang duda?",
+                    "Tantangan seorang duda itu apa saja?"
+               ],
+               "responses": [
+                    "1. Sepi menjalani hidup yang serba sendiri \n 2. Jauh dari anak \n 3. Tidak ada yang mengurus \n 4. Harus hidup mandiri tanpa istri"
+               ],
+               "context": [
+                    "kesepian",
+                    "terisah jarak",
+                    "sendiri",
+                    "mandiri"
+               ]
+          },
+          {
+               "tag": "duda",
+               "patterns": [
+                    "Cara meyakinkan orangtua untuk menikah dengan duda?",
+                    "Bagaimana cara meyakinkan orang tua untuk menikah dengan duda?"
+               ],
+               "responses": [
+                    "1. Utarakan Perasaan Pada Orangtua  \n 2. Dengarkan Pendapat Orangtua \n 3. Yakinkan diri  \n 4. Layak menjadi suami \n 5. Harus terima pendapat apapun dari orang tua"
+               ],
+               "context": []
+          }
+     ]
+}
